@@ -19,7 +19,7 @@ class RecipeView extends View {
 
         const { updateTo } = btn.dataset;
 
-        if (+updateTo > 0) handler(+updateTo);
+        if (+updateTo > 0 && +updateTo <= 100) handler(+updateTo);
       });
     }
 
