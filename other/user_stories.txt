@@ -1,0 +1,28 @@
+Structure:
+    user story => short fn description => feature
+
+1. As a User, I want to search for recipes, so that I can find new ideas for meals
+  => Search for recipes
+    a. Search functionality: input field to send request to API with searched keywords
+    b. Display results with pagination
+    c. Display recipe with cooking time, servings and ingredients
+
+2. As a User, I want to be able to update the number of servings, so that I can cook a meal for different number of people
+  => Update the number of servings 
+    a. Change servings functionality: update all ingredients according to a current number of servings 
+    
+3. As a User, I want to bookmark recipes, so that I can review them later
+  => Bookmark recipes 
+    a. Bookmarking functionality: display list of all bookmarked recipes
+
+4. As a User, I want to be able to create my own recipes, so that I have them all organized in the same app
+  => Create my own recipes 
+    a. User can upload own recipes 
+    b. User recipes will automatically be bookmarked
+    c. User can only see their own recipes, not recipes from other users
+
+5. As a User, I want to be able to see my bookmarks and own recipes when I leave the app and come back later, so that I can close the app safely after cooking
+  => See my bookmarks and own recipes when I leave the app and come back later 
+    a. Store bookmark in the browser using local storage 
+    b. On page load, read saved bookmark from local storage and display
+    
