@@ -49,7 +49,7 @@ export default class View {
                     .forEach(attr => curEl.setAttribute(attr.name, attr.value)
                 );
             }
-        });
+        })
     }
 
     _clear() {
